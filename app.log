@@ -882,3 +882,32 @@ DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"ro
 DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
 DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=7755 request_id=3b44df86065eaec20b4915fd62e64373 response_code=200
 INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:49:15] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://172.31.128.79:81
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:57:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:57:39] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "write a letter to the US Embassy for visa in 70 words to visit my brother \\u201cRagib\\u201d with my details as \\u201cNAME: yashi, Age: 23, Address: Bangalore, Identity: Aadhaar Card, Adhaar Card No: 17334849r9\\u201d"}, {"role": "system", "content": "Rephrase the prompt masking any personal information like name, address, location, organisation name, age"}]}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 429 349
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=30216 request_id=e5ab75a3765d78101545d28e0f27063d response_code=429
+INFO:openai:error_code=None error_message='That model is currently overloaded with other requests. You can retry your request, or contact us through our help center at help.openai.com if the error persists. (Please include the request ID e5ab75a3765d78101545d28e0f27063d in your message.)' error_param=None error_type=server_error message='OpenAI API error received' stream_error=False
+ERROR:main:An error occurred: That model is currently overloaded with other requests. You can retry your request, or contact us through our help center at help.openai.com if the error persists. (Please include the request ID e5ab75a3765d78101545d28e0f27063d in your message.)
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:58:10] "[35m[1mPOST /api HTTP/1.1[0m" 500 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:58:35] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "hello I am ritegs"}, {"role": "system", "content": "Rephrase the prompt masking any personal information like name, address, location, organisation name, age"}]}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1032 request_id=768bb0befc21eef8db9c770ce1138432 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "Greetings, how may I assist you?"}]}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1230 request_id=550a3d9f4e82d1fa0a8efd10206cd94e response_code=200
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:58:37] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:59:21] "GET / HTTP/1.1" 200 -
