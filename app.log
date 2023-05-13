@@ -1,0 +1,884 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 339-128-905
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://172.31.196.26:81
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:03:30] "GET / HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt and give me a more private prompt: I am Ritesh, I have fever. what should I do", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 401 146
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=None request_id=fbda6737cdfbf7aed39b97c232a30ee4 response_code=401
+INFO:openai:error_code=invalid_api_key error_message= error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+ERROR:main:An error occurred: <empty message>
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:03:35] "[35m[1mPOST /api HTTP/1.1[0m" 500 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt and give me a more private prompt: I am Ritesh, I have fever. what should I do", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 401 146
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=None request_id=a768dee63e3b78f8d44873b91d2ba3d1 response_code=401
+INFO:openai:error_code=invalid_api_key error_message= error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+ERROR:main:An error occurred: <empty message>
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:03:40] "[35m[1mPOST /api HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://172.31.196.26:81
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:04:22] "GET / HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt and give me a more private prompt: I am Ritesh, I have fever. what should I do", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 401 146
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=None request_id=e50c9783aa81398cb6b314b7066d959b response_code=401
+INFO:openai:error_code=invalid_api_key error_message= error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+ERROR:main:An error occurred: <empty message>
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:04:27] "[35m[1mPOST /api HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://172.31.196.26:81
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:06:00] "GET / HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt and give me a more private prompt: I am Ritesh, I have fever. what should I do", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 401 146
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=None request_id=d9af5c81990e0441a8a13dcdf0d07c30 response_code=401
+INFO:openai:error_code=invalid_api_key error_message= error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+ERROR:main:An error occurred: <empty message>
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:06:01] "[35m[1mPOST /api HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://172.31.196.26:81
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:07:31] "GET / HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt and give me a more private prompt: I am Ritesh, I have fever. what should I do", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=599 request_id=fc7c23962e26f466b300f0f925a1e69d response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "I am, I have fever. what should I do", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=1314 request_id=c3b3aad723f776a4c50c74803d742e20 response_code=200
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:07:41] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:08:58] "[31m[1mGET /api HTTP/1.1[0m" 405 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:08:59] "[31m[1mGET /api HTTP/1.1[0m" 405 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:09:41] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt and give me a more private prompt: Hello I have fever what should I do", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=752 request_id=1da420355ecfd23cfaef335b0d6be758 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "My temperature is elevated and I don\'t feel well. What should I do?", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=705 request_id=e097cff2b15c5606ca04e6213add4ba5 response_code=200
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:09:43] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:10:06] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt and give me a more private prompt: Hi", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=1571 request_id=f0c7ee779446f800d6d9f4fa3fdfc6a5 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": ", my name is Nadia and I\'m struggling with anxiety\\n\\nI\'ve been feeling really anxious lately and I\'m not sure why. It\'s like there\'s this constant knot in my stomach and I can\'t shake it. I\'m starting to feel really claustrophobic and panicky. I feel like I can\'t breathe.", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=954 request_id=f3a59f1b96bf0ebf3668c5a05b697cc9 response_code=200
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:10:09] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:10:42] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt and give me a more private prompt: My name is Ragib, I want to know my credit card details.", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=550 request_id=e2bd7f7297c9e8368826069f36a5d875 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "What are the details of my credit card?", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=643 request_id=96b1f8b745c719ce7672e8be31d691ee response_code=200
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:10:44] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:10:53] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt and give me a more private prompt: What is my name", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=367 request_id=c65b36d22213f45f1d873a2f213a6847 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "?\\n\\nWhat should I name my new pet?", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=1550 request_id=2a4eeba65e4bafe796f338c8a0ffdc77 response_code=200
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:10:56] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:12:11] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt and give me a more private prompt: My name is Ragib, I work in Samsung ", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=377 request_id=93e2e67d142075e4c9eb762713612f92 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "I work in Samsung.", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=828 request_id=cef9569280823d9484e0e0006b43b456 response_code=200
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:12:13] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:12:26] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt and give me a more private prompt: What\'s my name", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=301 request_id=f555f473abd80f38205f968f3d253fec response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "?\\n\\nWhat\'s my favorite color?", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=476 request_id=9f016eb0e931b0f1c30c98ee0a1d03b5 response_code=200
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:12:27] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:13:13] "OPTIONS /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:13:13] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt and give me a more private prompt: Write a Bio about me, my name is haque farazul adn age is 25. I have studied at IIT kharagpur and working on Banana SDK. ", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt and give me a more private prompt: ", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=1181 request_id=7ff7075305a40c9fae94b23e768916ed response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "I was driving my car and I saw ____\\n\\nI saw a figure in the distance.", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=136 request_id=caf3082025cea28b3d1f811150c0db02 response_code=200
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:13:15] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:13:16] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt and give me a more private prompt: Hi", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=2830 request_id=00261c31628654696795ae731ac08736 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "I was born in 1994 in a small town in upstate New York. I grew up with two younger sisters and a golden retriever named Max. I loved going on hikes with my family and playing tennis. I also loved to read and spend time outside. In high school, I was captain of the tennis team and editor of the school newspaper. I went to college at Ithaca College, where I majored in English and Occupational Therapy. After college, I moved to Boston to work as a journalist. I currently work as a Banana SDK developer. In my free time, I enjoy reading, cooking, and hanging out with my cat, Tiger.", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=216 request_id=ef205ca37df3f342972a7e028e37c7a5 response_code=200
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:13:16] "POST /api HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=447 request_id=5701f5cc94b5285396e9589e0ca63581 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": ", my name is Josh and I\'m 13\\n\\nHi, I\'m 13.", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=1241 request_id=c0ab6cd3987acb1fc4cc08539bc7afff response_code=200
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:13:18] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:13:37] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt and give me a more private prompt: hey", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=203 request_id=ae83aa234d882b39ee310ea4b345ceb0 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Hey there!", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=1596 request_id=5707297687b329742a71a28b61c858d8 response_code=200
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:13:39] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:13:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:14:25] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt and give me a more private prompt: what is the model that you are using", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=683 request_id=09f64216b07cd97a68f0022a561edc4f response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "for your report?\\n\\nWhat is the model that you are using for your report?", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=559 request_id=8ee6a06f8e8977e28fdaf41a0b6c28b0 response_code=200
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:14:27] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:15:36] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt and give me a more private prompt: Hi I have fever what medicines I should use", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=1126 request_id=f4fb44d9e11c36a14961e89417b48bbe response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Hi, I have a fever and don\'t know what medicines to use. Can you help?", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=2686 request_id=5109e52f8d6ac655b6d6197a875f1305 response_code=200
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:15:41] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:17:11] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt and give me a more private prompt: Hi My name is Yashi, I have fever what medicines I should use", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=519 request_id=0924df7247ef40b40b661ac0c7f00b6c response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Hi, I have a fever and I\'m not sure what medicines to use.", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=1874 request_id=369d603d8c0c0b442ecbe1608a45d9a9 response_code=200
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:17:17] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:17:53] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt and give me a more private prompt: Hi My name is Yashi, acknowledge me and I have fever what medicines I should use", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=627 request_id=4da7fe36030836e198064e1fd680492d response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Hi, I am feeling very Sick and I have a high fever. What kind of medicines should I use to make myself better?", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=2213 request_id=9eb3ef892ef004d6d4998c676ef89e37 response_code=200
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:17:57] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:18:09] "OPTIONS /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:18:09] "OPTIONS /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:18:10] "OPTIONS /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:18:10] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt and give me a more private prompt: Summarise this meeting notes for me", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt and give me a more private prompt: ", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt and give me a more private prompt: ", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt and give me a more private prompt: ", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=350 request_id=a8a86598d3dac9736bf9e983478ced0d response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Summarise the meeting notes for me.", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=820 request_id=14b2755353a10f6357f64bd3e1e3c9f8 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "I was recently diagnosed with ___ and it has been really hard to cope.\\n\\nI have been diagnosed with a medical condition that has been difficult to cope with.", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=121 request_id=63c2600657ec05786b74f70a8f892d1f response_code=200
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:18:11] "POST /api HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=811 request_id=e64a65960fca1e7b2b3b21d4336a8ae9 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "I met my significant other at my friend\'s party\\n\\nI met my significant other at a party.", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=990 request_id=0d8e217597a447435a389663516b9e0b response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Dante, thank you for opening up to me about your struggle with clinical depression.\\n\\nThank you for opening up to me about your struggle with clinical depression.", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=202 request_id=207290055146517d65d8e0c5c05e5d81 response_code=200
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:18:11] "POST /api HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=1083 request_id=e84faac7c012e4af6c9bb52c5b24c3fb response_code=200
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:18:11] "POST /api HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=646 request_id=63260f0c80b07f117f974e0d08435d7a response_code=200
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:18:12] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:18:27] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt and give me a more private prompt: Hi My name is Yashi, greet me and I have fever what medicines I should use", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=652 request_id=b2fab98bab48b5615e9d9ecddcc7d992 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Hi, I have a fever and I\'m not sure what medicines to use. Can you help?", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=1930 request_id=ab03792ab230f55637ca74e928e09fed response_code=200
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:18:30] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:18:38] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt and give me a more private prompt: Summarise this meeting notes for me. Meeting Notes  Date: May 13, 2023 Time: 10:00 AM - 11:00 AM Location: Virtual (via Zoom)  Attendees: - John Smith (Chair) - Jane Johnson - Michael Davis - Sarah Thompson  Agenda: 1. Welcome and introductions 2. Review of previous meeting minutes 3. Project updates 4. Discussion on upcoming marketing campaign 5. Any other business 6. Next steps and closing  Meeting Summary:  1. Welcome and Introductions:    - John Smith welcomed all the attendees and called the meeting to order.    - Each attendee introduced themselves briefly.  2. Review of Previous Meeting Minutes:    - The minutes from the previous meeting on May 6, 2023, were shared with the team.    - The team reviewed the minutes and confirmed their accuracy.    - No outstanding action items were noted.  3. Project Updates:    - Jane Johnson provided an update on the status of Project A:      - She mentioned that the development phase is on track and proceeding as planned.      - She highlighted some challenges faced by the team and discussed potential solutions.    - Michael Davis shared an update on Project B:      - He informed the team that the project is ahead of schedule.      - He mentioned that the testing phase is in progress, and initial results are promising.    - Sarah Thompson gave an update on Project C:      - She mentioned that the project is slightly behind schedule due to unforeseen technical issues.      - The team discussed potential mitigation strategies to get the project back on track.  4. Discussion on Upcoming Marketing Campaign:    - John Smith presented an outline of the upcoming marketing campaign for a new product launch.    - The team brainstormed ideas for the campaign, including target audience, messaging, and channels.    - Action items were assigned to team members to conduct further research and provide recommendations for specific campaign elements.  5. Any Other Business:    - Jane Johnson raised a concern regarding the availability of resources for Project A.    - The team discussed possible solutions, such as reallocating resources from other projects and exploring external support.    - John Smith assured the team that he would address the resource issue promptly and provide an update in the next meeting.  6. Next Steps and Closing:    - The team reviewed the action items and assigned responsibilities.    - The next meeting was scheduled for May 20, 2023, at 10:00 AM.    - John Smith thanked all attendees for their participation and closed the meeting.  Action Items: - Jane Johnson: Conduct research on potential resource options for Project A. - Michael Davis: Prepare a detailed progress report for Project B. - Sarah Thompson: Explore possible solutions to address the technical issues in Project C. - John Smith: Follow up on resource availability for Project A and provide an update in the next meeting.  Meeting End Time: 11:00 AM  Note: These meeting notes are for reference purposes only and should not be considered as official minutes. Official minutes will be prepared and distributed separately.", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 400 294
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=5 request_id=de22cefd327b766c3d139b1edde02187 response_code=400
+INFO:openai:error_code=None error_message="This model's maximum context length is 4097 tokens, however you requested 4134 tokens (634 in your prompt; 3500 for the completion). Please reduce your prompt; or completion length." error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+ERROR:main:An error occurred: This model's maximum context length is 4097 tokens, however you requested 4134 tokens (634 in your prompt; 3500 for the completion). Please reduce your prompt; or completion length.
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:18:38] "[35m[1mPOST /api HTTP/1.1[0m" 500 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:18:44] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt and give me a more private prompt: Hi My name is Yashi, great me and I have fever what medicines I should use", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=507 request_id=91fda8e2fe7c50c048494cc47538ecad response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Hi, I have a fever and I\'m not sure what medicines to take.", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=1683 request_id=e19600f72fe7998d5cb5bbe7cd03389a response_code=200
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:18:47] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:19:00] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt and give me a more private prompt: Hi My name is Yashi", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=381 request_id=15f53e85f912c5a47afdd33211f894ea response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "and I come from Afghanistan\\n\\nHi, I come from Afghanistan.", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=516 request_id=df1cdd351a3fed19ced1b1278aa26252 response_code=200
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:19:02] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:19:14] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt and give me a more private prompt: Summarise the meeting notes. Welcome and Introductions:  John Smith welcomed all the attendees and called the meeting to order. Each attendee introduced themselves briefly. Review of Previous Meeting Minutes:  The minutes from the previous meeting on May 6, 2023, were shared with the team. The team reviewed the minutes and confirmed their accuracy. No outstanding action items were noted. Project Updates:  Jane Johnson provided an update on the status of Project A: She mentioned that the development phase is on track and proceeding as planned. She highlighted some challenges faced by the team and discussed potential solutions. Michael Davis shared an update on Project B: He informed the team that the project is ahead of schedule. He mentioned that the testing phase is in progress, and initial results are promising. Sarah Thompson gave an update on Project C: She mentioned that the project is slightly behind schedule due to unforeseen technical issues. The team discussed potential mitigation strategies to get the project back on track.", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=3297 request_id=ca8016e204ed5324cb6ac67876ce3601 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "New Business:  John Smith brought up the topic of expanding the development team. He shared some preliminary thoughts on the matter and asked for the team\'s input. The team discussed the pros and cons of expanding the team and identified some key considerations. The team agreed to discuss the topic further at the next meeting. Summarise the meeting notes.\\n\\nWelcome and Introductions: The meeting started with everyone introducing themselves.\\nReview of Previous Meeting Minutes: The team went over the minutes from the previous meeting to see if anything needed to be changed. \\nProject Updates: Jane, Michael, and Sarah gave updates on the progress of their respective projects.\\nNew Business: The team discussed the idea of expanding the development team and agreed to talk more about it next time.", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=210 request_id=46edd6d9b020b0fb29ca2ce24e70fdf4 response_code=200
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:19:18] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:19:53] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt and give me a more private prompt: Hi My name is Yashi", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=462 request_id=34ac4f777fc09999cb55fded4c38dc29 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "and I\\u2019m 17\\n\\nHey, I\'m 17.", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=3000 request_id=7feae7df41fec92b8b9ec168b7c53a20 response_code=200
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:19:57] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://172.31.196.26:81
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:25:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:26:06] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/davinci/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt: Hello My name is Ritesh, I want to go to thailand in June. Plan a trip", "max_tokens": 3500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/davinci/completions HTTP/1.1" 400 293
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/davinci/completions processing_ms=342 request_id=4264d137e22ae1044b5ec77e761a8c3e response_code=400
+INFO:openai:error_code=None error_message="This model's maximum context length is 2049 tokens, however you requested 3530 tokens (30 in your prompt; 3500 for the completion). Please reduce your prompt; or completion length." error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+ERROR:main:An error occurred: This model's maximum context length is 2049 tokens, however you requested 3530 tokens (30 in your prompt; 3500 for the completion). Please reduce your prompt; or completion length.
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:26:07] "[35m[1mPOST /api HTTP/1.1[0m" 500 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:26:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:26:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://172.31.196.26:81
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:27:02] "[33mOPTIONS * HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:27:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:27:11] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/davinci/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt: Hello My name is Ritesh, I want to go to thailand in June. Plan a trip", "max_tokens": 1500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/davinci/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/davinci/completions processing_ms=46597 request_id=29aa67e0b5a8feae8a528f1d4d390d8a response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/davinci/completions
+DEBUG:openai:api_version=None data='{"prompt": "for Ritesh from India is June where you need to do online research because traveling to thailand is very expensive and economical flights are not available! So I want to know the best places to go. You should research the weather, internet and local road transportation Mexico Answer 15 marksThere is a map attached in Trip Plan For Ritesh.ngo\\n\\n\\n\\nQuestion No 4 (Points: 5)\\n\\nWhere are you travelling to? What is the climate? Has it a big city? What are the people like? Are there complimentary activities? What types of facilities does it include? Have you done anything similar already? Who is your eco traveller? 4. Plan how you will cater for Riteshs need Answer 15 marks\\n\\n\\n\\nPlan how you will cater for Riteshs needs?\\n\\nI have thought that Ritesh has special needs like motor vehicle as he dont walk , so I will select the cheapest transport mode Train as he cannot alight bus and taxi, I have estimated cost 1200GMD. Ritesh will require private bathing room with necessary amenities like comfortable bed, extra pillows, luggage carriers, air-conditioning, bottled water and attendants to move. Question 5 (Points: 5) Ritesh has some confidence issues and he never take the advice of parents listed below You are discussing with the foreign travel agent some special services needed to make your trip a success. 4.\\n\\n\\n\\nAnswer 20 marksA day trip to place with Beaches\\n\\n\\n\\nWhich place should you recommend and why?\\n\\nI should recommend Thailand as it has big city Bangkok, suitable for his hanging brakes but more surcharged Market is good for handicapped visitors to provide comfortable journey Questions 6 (Points: 20)\\n\\nNow you discuss with the foreign travel agent, a company which organizes day trips to atapiadae near super Kmart general store. List the advantages: Take your ecotraveler to the experience you have selected. Discuss ways and means you may use to counter any problem he might face, in part.\\n\\n\\n\\nQuestion 6 (Points: 20)\\n\\nWhich travel agent would you recommend and why? Now you should reach an attractive eco medical facility with essential facilities. Question 7 13 marks\\n\\n\\n\\nLocally managed-sites with no entry fees or souvenir stalls\\n\\nVery limited or no business activities mean that most of these areas have few if any staff and no entertainment to distract you or your ecotravellers. You can really connect with nature and the resident creatures. Tanja z, the wife of our African middleclass millionaire, Mr z, will visit guatamala, on the recommendation of her close friend , +Mr and Mrs Ndg for a 1 month high-end, licensed tour package at the priciest hotels in this 3385-acre Quesala in the Maya Underworld. She hopes that it could.\\n\\n\\n\\nMinimize costs by going on local day trips as much as possible, avoiding expensive tours Increasing their chances of taking a low-cost tour by encouraging them to do their own research Make them more aware of the genuine atmosphere that can be found in these fascinating places that are more and more open for tourism? Answer 15marks\\n\\n\\n\\nAmong the three activities in these places Which is the best according to you and why? How will you help them in selecting a low-cost travel package to the destination? Is it safe to go alone as a senior and single Only if accompanied by a friend who recognizes the potential risks and is willing to take responsibility if something goes wrong? The other couples with McDonnel Douglas had similar answers to Tanja. They believed that it was safe to go there alone at a reasonable cost because they only wanted to have a picture with the ecotourism activities and. Are the the ecotourism activities cheaper than high-end hotels? Answer 20 marks5 Customer 1 Customerreversible; wear and fading will be noticed more on these fabrics4 Traditionally, these clients bought good quality products but did not pay particular attention to appearance and specifications They also bought good quality products that lasted a long time. If these customers visit you with intention to kill, how can you still retain them? They are too old to take on a new learning curve about the advantages of the ecotourism, the ecotourism is your defensive mechanism but wait ,before discuss the ecotravellers, why would the ecotravellers make a phone call? Answer a maximum of 20 marks.\\n\\n\\n\\nI can talk about the river gorges when a friend traveling alone last weekend. At an age when most men have long stopped expressing their emotions she did not like the idea of going it alone to view these beautiful craggy rises and falls. \'A feel of having to keep an eye on her! Now Tanja Is planning to make an artistic expressive painting of the Ektomey canyon In the south of the Katitelgs form the first. At the starting prices. When she reaches the settlement, the highest courts in the world have not been able to deter their blatant disregard for the law The supreme court of South Korea has fined three steel companies 10. The indiaCzech RepublicForest area plan : reduce the Green House Gases Question 8 Answer 15 marks (3 x 5) This might help discourage acquisition of second homes Aim for less common early-season shelters to reflect your career: for instance, a smaller but higher percentage of heavy urbanization. Answer 15 marks6 Depreciated equilibrium head In todays currency, the sightseeing bus The bus was air-conditioned, comfortable and safe.\\n\\n\\n\\nTrained on ecotourism operations You are an ecotourists and have recently arrived at the ecotourism activities Depreciate this piece with the size and weight of the luggage remains the same from season to season, except for a card addressed to the recipient. Both are two days older than my dad. Their mutual high school friends consist of four more couples and I. Every year on the good ferry for a sum not exceeding four percent of the purchase price of the property does not exceed X million but less than more. Both married in todays modern so for a maximum discount of 3 percent of the purchase price of the property does not exceed X million. In the case that the planned out of the property does not exceed X million, but less than more. In this case was Realtors, who participates in the process of the private owner. In practice Z termites have the following: an offer price that is running, save the date of the wine or do pencil) Recalls of loss of life because of the head that connects the neck and shoulder movements into force on the neck. Also, spinning round and round in an ankle twist leads to a weakness in the ankle joint ) Physical weight of the tongue leads to the loss of power and injuries of the tongue or the muscles of the tongue, which also could lead to injury.\\n\\n\\n\\nBut less than more. This is not incentive without expenditure. Regardless knew Mr z, Lee and Mrs Ndg, Tanjas friend and good friends described, what services he requested it. Answer a maximum of 20 marks. She decided to work out at least 150 from the city hall of all signs of ageing, the body, but do a good job over the past few years. One day", "max_tokens": 1500}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/davinci/completions HTTP/1.1" 400 295
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/davinci/completions processing_ms=14 request_id=1bad79dc2c0660159c04b1aa33ccb33f response_code=400
+INFO:openai:error_code=None error_message="This model's maximum context length is 2049 tokens, however you requested 2999 tokens (1499 in your prompt; 1500 for the completion). Please reduce your prompt; or completion length." error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+ERROR:main:An error occurred: This model's maximum context length is 2049 tokens, however you requested 2999 tokens (1499 in your prompt; 1500 for the completion). Please reduce your prompt; or completion length.
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:27:59] "[35m[1mPOST /api HTTP/1.1[0m" 500 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:29:52] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/davinci/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt: Hello my name is Ritesh, I have fever what to do", "max_tokens": 1500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/davinci/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/davinci/completions processing_ms=12823 request_id=9af64b151e84c231eaf01c005884bf77 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/davinci/completions
+DEBUG:openai:api_version=None data='{"prompt": "Sample 1 here\\n\\nIs this a new project? (Summer, winter, christmas holidays) 1 point if no\\ud83d\\ude0e\\n\\nSample 1 here I\\u2019m not very sure.\\n\\n1 more point\\n\\nSend me presents\\n\\nSample 1 here I\\u2019ll refund you a burger!\\n\\nSearching 8 funniest skateboard fails\\n\\nSample 1 here Congratulations\\n\\nSearching internet for funny videos for me\\n\\nSample 1 here Just in case you get tired I\\u2019m taking this right now!\\n\\nSearching funny videos of mine\\n\\nSample 1 here Cutest\\n\\nSearching funny videos of cats\\n\\nSample 2 here Did you like my choice?\\n\\nSearching funny videos of dogs?\\n\\n(you picked one 10 points \\ud83e\\udd11 \\ud83e\\udd11 \\ud83e\\udd11 \\ud83e\\udd11 \\ud83e\\udd11 \\ud83e\\udd11 \\ud83e\\udd11 \\ud83e\\udd11 \\ud83e\\udd11 \\ud83e\\udd11 )\\n\\nSample 2 here I am sure you liked those\\n\\nSearching funny videos of human fall\\n\\nSample 2 here I am sure you liked those\\n\\n1 more point\\n\\nSend me your birthday greeting video\\n\\nSample 2 here Hum that\\u2019s tough, may I call & hear your voice instead please?\\n\\nCall me & wish hello, what\\u2019s up, how are you etc?\\n\\n(you picked one 10 points \\ud83e\\udd11 \\ud83e\\udd11 \\ud83e\\udd11 \\ud83e\\udd11 \\ud83e\\udd11 \\ud83e\\udd11 \\ud83e\\udd11 \\ud83e\\udd11 \\ud83e\\udd11 \\ud83e\\udd11 )\\n\\nSample 2 here You are someone special!\\n\\nSample 1 here *\\n\\nThat was fun! We ended up twilling jointly at the limits of 160+ characters, creating a top of the bill, artificial intelligence generated personality all by ourselves. Cannot thank you enough, friends.\\n\\nIf you have your own approach, hypothesis or theory you believe can master in this word game and are ready to collaborate let\\u2019s keep communication \\ud83d\\ude0e", "max_tokens": 1500}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/davinci/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/davinci/completions processing_ms=5071 request_id=5e8c80b5dda3b332a8db4a7e87800528 response_code=200
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:30:11] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://172.31.196.26:81
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:43:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:43:32] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/gpt-4/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt: Hello my name is Ritesh, I have fever what to do", "max_tokens": 1500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/gpt-4/completions HTTP/1.1" 404 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/gpt-4/completions processing_ms=None request_id=321d5e3346beeba3f2846c89e561b10b response_code=404
+INFO:openai:error_code=model_not_found error_message='The model: `gpt-4` does not exist' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+ERROR:main:An error occurred: The model: `gpt-4` does not exist
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:43:33] "[35m[1mPOST /api HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://172.31.196.26:81
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:45:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:45:26] "OPTIONS /api HTTP/1.1" 200 -
+ERROR:main:An error occurred: module 'openai' has no attribute 'chat'
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:45:26] "[35m[1mPOST /api HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://172.31.196.26:81
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:46:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:46:41] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/gpt-4/chat/completions
+DEBUG:openai:api_version=None data='{"prompt": "Remove all the personal information from this prompt: Hello my name is Ritesh, I have fever what to do", "max_tokens": 1500}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/gpt-4/chat/completions HTTP/1.1" 404 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/gpt-4/chat/completions processing_ms=None request_id=61ae3c265d1bf48fae526c9953239fb2 response_code=404
+INFO:openai:error_code=None error_message='Invalid URL (POST /v1/engines/gpt-4/chat/completions)' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+ERROR:main:An error occurred: Invalid URL (POST /v1/engines/gpt-4/chat/completions)
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:46:42] "[35m[1mPOST /api HTTP/1.1[0m" 500 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:50:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://172.31.196.26:81
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:51:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:51:58] "OPTIONS /api HTTP/1.1" 200 -
+ERROR:main:An error occurred: Object of type set is not JSON serializable
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:51:59] "[35m[1mPOST /api HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://172.31.196.26:81
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:53:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:53:17] "OPTIONS /api HTTP/1.1" 200 -
+ERROR:main:An error occurred: Object of type set is not JSON serializable
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 14:53:18] "[35m[1mPOST /api HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://172.31.196.26:81
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 15:07:56] "[33mOPTIONS * HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 15:07:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 15:07:57] "[33mOPTIONS * HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 15:07:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://172.31.196.26:81
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 15:08:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 15:08:13] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-4", "messages": [{"role": "system", "content": "You are a privacy expert. Remove any personal information from this and keep the original prompt purpose intact."}, {"role": "user", "content": "fkadfkad "}]}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 404 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=None request_id=756624640010ec61a136c4f0f34c6254 response_code=404
+INFO:openai:error_code=model_not_found error_message='The model: `gpt-4` does not exist' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+ERROR:main:An error occurred: The model: `gpt-4` does not exist
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 15:08:14] "[35m[1mPOST /api HTTP/1.1[0m" 500 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 15:08:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://172.31.196.26:81
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 15:08:59] "[33mOPTIONS * HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 15:08:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 15:09:00] "[33mOPTIONS * HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 15:09:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 15:09:02] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a privacy expert. Remove any personal information from this and keep the original prompt purpose intact."}, {"role": "user", "content": "fkadfkad "}]}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=2929 request_id=2e480db84ebec613dcccba10e1217fbf response_code=200
+ERROR:main:An error occurred: Object of type set is not JSON serializable
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 15:09:05] "[35m[1mPOST /api HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://172.31.196.26:81
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 15:09:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 15:09:58] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a privacy expert. Remove any personal information from this and keep the original prompt purpose intact."}, {"role": "user", "content": "Hello my name is Ritesh, I have fever what to do"}]}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=3749 request_id=58359c39d3917508d9ec643843d2a047 response_code=200
+ERROR:main:An error occurred: Object of type set is not JSON serializable
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 15:10:02] "[35m[1mPOST /api HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://172.31.196.26:81
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 15:12:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 15:12:33] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are a privacy expert. Remove any personal information form this prompt and return a prompt."}, {"role": "user", "content": "Hello my name is Ritesh, I have fever what to do"}]}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=5488 request_id=f0158fb9c0178222d576690122f92ac1 response_code=200
+ERROR:main:An error occurred: Object of type set is not JSON serializable
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 15:12:39] "[35m[1mPOST /api HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://172.31.196.26:81
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 15:13:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 15:13:40] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Modify this prompt and return a prompt which does not have any personal information."}, {"role": "user", "content": "Hello my name is Ritesh, I have fever what to do"}]}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1447 request_id=46df12c925dc60455b7863dd16638af0 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "Hello, what are some steps you can take to alleviate a fever?"}]}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=12452 request_id=eccdf28ac285bb8801c9cd3a1de1436f response_code=200
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 15:13:54] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 15:14:37] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Modify this prompt and return a prompt which does not have any personal information."}, {"role": "user", "content": "Hello I am ritesh, living in bangalore. Plan a short trip to Europe"}]}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1546 request_id=c90d1a937409138b92dc2c857da9541d response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "Plan a short trip to Europe, considering the top attractions and landmarks."}]}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=32151 request_id=a9e3e78c22a542931129f9932225b2b8 response_code=200
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 15:15:11] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 15:16:49] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Modify this prompt and return a prompt which does not have any personal information."}, {"role": "user", "content": "Hello I am ritesh, living in bangalore. Plan a short trip to Europe"}]}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1116 request_id=32a0441182aeac8f206f181fc4cf2eb0 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "Plan a short trip to Europe."}]}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=18480 request_id=1c34446e6c6014a1ee1c686604ef0bf8 response_code=200
+INFO:werkzeug:172.31.196.1 - - [13/May/2023 15:17:09] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://172.31.128.79:81
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 15:57:54] "[33mOPTIONS * HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 15:57:54] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Modify this prompt and return a prompt which does not have any personal information."}, {"role": "user", "content": "Hello I am ritesh, should I play cricte"}]}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1251 request_id=e281784abd1794490c9bfc5e8d4688d1 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "Should playing cricket be considered as a good option?"}]}' message='Post details'
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 15:57:56] "GET / HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=11335 request_id=285c766ed6b147ce41783bd4772ffb41 response_code=200
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 15:58:07] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:08:00] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Modify this prompt and return a prompt which does not have any personal information."}, {"role": "user", "content": "Hello I am Ritesh, I have fever what to do"}]}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1654 request_id=74892b57d35b778be80ae548838c3daf response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "Hello, if you have a fever, what steps should be taken?"}]}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=7882 request_id=3530e4dc3f6acd6d5978aafbe65016ed response_code=200
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:08:10] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:13:43] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Modify this prompt and return a prompt which does not have any personal information."}, {"role": "user", "content": "My name is Yashi"}]}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 429 349
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=30239 request_id=be648746a79d71257d6e52e06c8fac05 response_code=429
+INFO:openai:error_code=None error_message='That model is currently overloaded with other requests. You can retry your request, or contact us through our help center at help.openai.com if the error persists. (Please include the request ID be648746a79d71257d6e52e06c8fac05 in your message.)' error_param=None error_type=server_error message='OpenAI API error received' stream_error=False
+ERROR:main:An error occurred: That model is currently overloaded with other requests. You can retry your request, or contact us through our help center at help.openai.com if the error persists. (Please include the request ID be648746a79d71257d6e52e06c8fac05 in your message.)
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:14:14] "[35m[1mPOST /api HTTP/1.1[0m" 500 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:14:43] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Modify this prompt and return a prompt which does not have any personal information."}, {"role": "user", "content": "My name is Yashi"}]}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1431 request_id=396a2c0757acacec98a28b062c4e98e7 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "What\'s your favorite hobby or pastime?"}]}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=3225 request_id=7062175e986673528f01c1ac0d15ac4f response_code=200
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:14:49] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:16:02] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Modify this prompt and return a prompt which does not have any personal information."}, {"role": "user", "content": "Hello I am Ritesh, I want to travel to Bangalore."}]}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1354 request_id=39b7d637de7ce2a24fc19b1b995b8c4d response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "Hello, a potential traveler is interested in visiting Bangalore."}]}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=19895 request_id=b9ea3f8f98481e8eec91139dc09d1931 response_code=200
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:16:24] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:18:07] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Modify this prompt and return a prompt which does not have any personal information."}, {"role": "user", "content": "I have 50,000 Rupee please suggest platforms where to invest "}]}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1539 request_id=0fd5162e0815ea4e966393c3c7273cef response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "What are some potential platforms to invest 50,000 rupees?"}]}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=19552 request_id=2c5a70fba25241a3aef4849da857c27b response_code=200
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:18:28] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:24:40] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Modify this prompt and return a prompt which does not have any personal information."}, {"role": "user", "content": "my home is in Bangalore, suggest places to visit nearby Bangalore"}]}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1626 request_id=5028d2d187fa8d9ccc4c7ab8953f0590 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "What are some popular tourist destinations around Bangalore that you would recommend visiting?"}]}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=18538 request_id=25896d80060cf76a7d026be3bfb59103 response_code=200
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:25:00] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://172.31.128.79:81
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:27:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:27:33] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Rephrase the prompt masking any personal information"}, {"role": "user", "content": "Hi, I am yashi!"}]}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1431 request_id=6a6c0e7eb40761ddf78c400b38a56d2d response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "Hello there! How can I assist you today?"}]}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=3017 request_id=e638bcbe9ca21f036becc86048e2e936 response_code=200
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:27:38] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:29:34] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Rephrase the prompt masking any personal information"}, {"role": "user", "content": "My home is in Bangalore, suggest places to visit nearby Bangalore?"}]}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=2692 request_id=eaac3c0d6530ae8bf9326376d8920191 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "Can you please provide more information about your interests and preferences for places to visit near Bangalore? This would help me offer recommendations that are tailored to your preferences."}]}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=3610 request_id=1fb68fb5968326eb22f42e54085c197b response_code=200
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:29:41] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:29:58] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Rephrase the prompt masking any personal information"}, {"role": "user", "content": "My home is in Bangalore, suggest places to visit nearby?"}]}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1404 request_id=5f3f4e0a1867dfdce39ee5790b8724e8 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "What are some tourist attractions near Bangalore that I could visit?"}]}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=9080 request_id=ee8ff25ff074a13f85f07cc21392f57d response_code=200
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:30:09] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:32:21] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Rephrase the prompt masking any personal information"}, {"role": "user", "content": "Write a email to my manager Ritesh asking for 10 days leave due to medical emergency from Yashi\'s behalf in 50 words."}]}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=8544 request_id=ed4e81526496b7d998387069c10b3220 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "Dear Ritesh, \\nYashi here. I am writing to request for 10 days leave due to unforeseen medical emergency. I apologize for the inconvenience this may cause. I will ensure that all my pending work is completed before my leave and that I stay in touch with my team during my absence. Thank you for your understanding.\\nRegards, \\nYashi"}]}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=7702 request_id=37df2912d2537e2e65421436fb830805 response_code=200
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:32:38] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:35:31] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "Rephrase the prompt masking any personal information"}, {"role": "user", "content": "Write a summary for hiring manager about me in 50 words with these details"}]}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=5031 request_id=2c7b4b11ae0255595db087df81eb6fd5 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "This is a summary of the candidate\'s skills and experience within 50 words for a hiring manager:\\n\\nThe candidate is an experienced professional with comprehensive knowledge and skills in their field. They have a proven track record of success, exceptional communication skills, and can work effectively under pressure while delivering high-quality results."}]}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=2536 request_id=9ce783d192450412e87f97d35f15ecd5 response_code=200
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:35:39] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:35:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://172.31.128.79:81
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:36:04] "[33mOPTIONS * HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:36:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:36:48] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "Write a summary for hiring manager about me in 50 words with these details \\"Name: YAshi, age: 23, technical skils: SQL, Excel, Apache Superset, Tableau, JIRA, SAP Analytics Cloud, Python\\""}, {"role": "system", "content": "Rephrase the prompt masking any personal information like name, address, location, organisation name"}]}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=4251 request_id=e68e6d04a43dc15ec60c22d316467e75 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "Summary for a hiring manager of a 23-year-old candidate with technical skills in SQL, Excel, Apache Superset, Tableau, JIRA, SAP Analytics Cloud, Python."}]}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=7713 request_id=68f6b997a003895846d18928f0d9214e response_code=200
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:37:01] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:38:14] "OPTIONS /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:38:14] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "Write a email to my manager \\"Ritesh\\" asking for 10 days leave due to medical emergency from  my \\"Yashi\'s\\" behalf in 50 words."}, {"role": "system", "content": "Rephrase the prompt masking any personal information like name, address, location, organisation name"}]}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "Hello I am ritesh, should I play cricket,Should playing cricket be considered as a good option?"}, {"role": "system", "content": "Rephrase the prompt masking any personal information like name, address, location, organisation name"}]}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1280 request_id=2f03c2acea322beaf45cb1ffa20c3870 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "Should one consider playing cricket as a good option?"}]}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=2759 request_id=aa97bc0f268268b3260e4652a3448185 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "Requesting 10 days leave due to a medical emergency from an individual\'s behalf to my manager, Ritesh, in 50 words."}]}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=4576 request_id=dad781b0a71337c8f179f249f37b28bd response_code=200
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:38:21] "POST /api HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=9458 request_id=a9164d80ca8f7214fb37406314bbfac7 response_code=200
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:38:25] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:41:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://172.31.128.79:81
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:41:10] "[33mOPTIONS * HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:41:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:41:14] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "Write a summary for hiring manager about me in 50 words with these details \\"Name: YAshi, age: 23, technical skils: SQL, Excel, Apache Superset, Tableau, JIRA, SAP Analytics Cloud, Python\\""}, {"role": "system", "content": "Rephrase the prompt masking any personal information like name, address, location, organisation name, age."}]}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=5373 request_id=99849dafc7e61f5c7463236184bf1966 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "Summary for a potential employer:\\n\\nThis candidate possesses technical skills in SQL, Excel, Apache Superset, Tableau, JIRA, SAP Analytics Cloud, and Python. They have experience in data analysis and reporting and would be a valuable addition to any team."}]}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=6470 request_id=7345288dd55deb646c2c743abf2dcbc9 response_code=200
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:41:26] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:42:12] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "Write a summary for hiring manager about me in 50 words with these details \\"Name: YAshi, age: 23, technical skils: SQL, Excel, Apache Superset, Tableau, JIRA, SAP Analytics Cloud, Python\\""}, {"role": "system", "content": "Rephrase the prompt masking any personal information like name, address, location, organisation name, age."}]}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=2475 request_id=59a7256fef01044898b83ccbe1765fa8 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "Candidate possesses technical skills in SQL, Excel, Apache Superset, Tableau, JIRA, SAP Analytics Cloud, Python."}]}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=6947 request_id=aadc65e1803cb0b0d985639c1eb8d781 response_code=200
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:42:22] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:43:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:43:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://172.31.128.79:81
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:43:41] "[33mOPTIONS * HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:43:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:43:52] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "Write a summary for hiring manager about me in 50 words with these details \\"Name: YAshi, age: 23, technical skils: SQL, Excel, Apache Superset, Tableau, JIRA, SAP Analytics Cloud, Python\\""}, {"role": "system", "content": "Rephrase the prompt masking any personal information like name, address, location, organisation name, age"}]}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=3330 request_id=ddc494838a668dc49a5a809065164cd4 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "Candidate has technical skills in SQL, Excel, Apache Superset, Tableau, JIRA, SAP Analytics Cloud and Python. Age is 23. 50-word summary available."}]}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=6019 request_id=862babcbf83c6900d70b4bfd0f58f527 response_code=200
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:44:02] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:47:10] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "write a letter to the US Embassy for visa in 70 words to visit my brother \\u201cRagib\\u201d with my details as \\u201cNAME: yashi, Age: 23, Address: Bangalore, Identity: Aadhaar Card, Adhaar Card No: 17334849r9\\u201d"}, {"role": "system", "content": "Rephrase the prompt masking any personal information like name, address, location, organisation name, age"}]}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=8423 request_id=ecbdd5802a914a85ba2e2a13ce443d3d response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "Write a letter in 70 words to the US Embassy applying for a visa to visit your brother \\"Ragib.\\" Provide your personal details like identity proof number, age, and address."}]}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=7289 request_id=ec3440fe625105c5cebb9f6fefce2ce4 response_code=200
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:47:27] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://172.31.128.79:81
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:48:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:49:03] "OPTIONS /api HTTP/1.1" 200 -
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "write a letter to the US Embassy for visa in 70 words to visit my brother \\u201cRagib\\u201d with my details as \\u201cNAME: yashi, Age: 23, Address: Bangalore, Identity: Aadhaar Card, Adhaar Card No: 17334849r9\\u201d"}, {"role": "system", "content": "Rephrase the prompt masking any personal information like name, address, location, organisation name, age"}]}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=3756 request_id=c140ea6362ded261330b183874467b93 response_code=200
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+DEBUG:openai:api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "user", "content": "Could you please write a letter containing 70 words to request visa from the US Embassy? The letter is for a visit to my brother \\"Ragib\\", including my personal details such as my ID card number and type."}]}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=7755 request_id=3b44df86065eaec20b4915fd62e64373 response_code=200
+INFO:werkzeug:172.31.128.1 - - [13/May/2023 16:49:15] "POST /api HTTP/1.1" 200 -
